@@ -1,1 +1,3 @@
-console.log("Olá Mundo 2")
+import CalculadoraControle from "./calculadora/CalculadoraControle.js"
+
+new CalculadoraControle()
