@@ -1,0 +1,32 @@
+{
+    "name": "calculadora-typescript",
+    "version": "1.0.0",
+    "description": "Projeto da Calculadora desenvolvida em TypeScript pela Hcode",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --style=compressed assets/scss:assets/css",
+        "tsc": "tsc",
+        "build": "concurrently \"npm run sass\" \"npm run tsc\"",
+        "dev": "concurrently \"npm run sass -- --watch\" \"npm run tsc -- --watch\""
+    },
+    "keywords": [
+        "css",
+        "sass",
+        "scss",
+        "css3",
+        "javascript",
+        "typescript"
+    ],
+    "author": "Eduardo Donato",
+    "license": "ISC",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.6.0",
+        "@typescript-eslint/parser": "^5.6.0",
+        "concurrently": "^6.4.0",
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.5.1",
+        "sass": "^1.44.0",
+        "typescript": "^4.5.2"
+    }
+}

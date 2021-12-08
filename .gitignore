@@ -1,0 +1,5 @@
+node_modules/
+assets/css/*
+!assets/css/.gitkeep
+assets/scripts/*
+assets/scripts/.gitkeep
